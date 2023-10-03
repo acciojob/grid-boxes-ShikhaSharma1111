@@ -1,1 +1,40 @@
 /*  your css code here. If applicable */
+#grid{
+	display:grid;
+	grid-template-columns:repeat(4,242.5px);
+	grid-template-rows:repeat(5,124px);
+	grid-gap:10px;.
+	
+}
+#grid>div{
+	font-size:30px;
+	color:white;
+}
+#item1{
+	grid-column:span 4;
+	background-color:green;
+}
+#item2{
+	grid-row:span 4;
+	background-color:green;
+}
+#item3{
+	
+	background-color:green;
+}
+#item4{
+	grid-column:span 2;
+	background-color:green;
+}
+#item5{
+	grid-column:span 2;
+	background-color:green;
+}
+#item6,#item7,#item8,#item9{
+	
+	background-color:green;
+}
+#item10{
+	grid-column:span 3;
+	background-color:green;
+}
